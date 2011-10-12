@@ -9,4 +9,9 @@ module ApplicationHelper
     end
   end
 
+  #render the site logo
+  def logo
+    logo = mage_tag("logo.png", :alt => "Sample App", :class => "round")W
+  end
+
 end
